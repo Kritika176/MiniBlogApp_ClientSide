@@ -1,0 +1,19 @@
+.home{
+    display:flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 70px;
+}
+
+.showPost{
+    display: grid;
+    border: 1px solid transparent;
+    gap: 30px;
+    grid-template-columns: repeat(2,1fr);
+    flex: 9;
+    margin-left: 10px;
+    
+}
+.side{
+    flex: 3;
+}
